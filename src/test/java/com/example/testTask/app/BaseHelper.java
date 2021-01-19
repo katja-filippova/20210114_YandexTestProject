@@ -10,7 +10,7 @@ import java.io.IOException;
 
 import static com.google.common.io.Files.copy;
 
-public class BaseHelper {
+public abstract class BaseHelper {
 
     WebDriver wd;
 

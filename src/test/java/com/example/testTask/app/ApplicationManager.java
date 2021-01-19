@@ -73,6 +73,8 @@ public class ApplicationManager {
         mainPageHelper = new MainPageHelper(wd);
         marketHeaderHelper = new MarketHeaderHelper(wd);
         marketItemHelper = new MarketItemHelper(wd);
+
+        wd.register(new MyListener());
     }
 
     public void stop() {
