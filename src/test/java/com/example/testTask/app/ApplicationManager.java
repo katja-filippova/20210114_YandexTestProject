@@ -65,7 +65,6 @@ public class ApplicationManager {
                 break;
         }
 
-        //wd = new ChromeDriver();
         wd.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         wd.manage().window().maximize();
         wd.navigate().to("https://yandex.ru/");
